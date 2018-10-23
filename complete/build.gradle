@@ -39,4 +39,5 @@ dependencies {
     compile("com.h2database:h2")
     testCompile("junit:junit")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+    implementation("javax.xml.bind:jaxb-api:2.3.0")
 }
